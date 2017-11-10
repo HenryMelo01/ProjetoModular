@@ -1,13 +1,3 @@
-CREATE TABLE cadastro(
-id INTEGER,
-nome VARCHAR(),
-idade VARCHAR(2),
-sexo VARCHAR(1),
-cidade VARCHAR(),
-bairro VARCHAR()
-)
-
-
 CREATE TABLE `bdTesteProjetoModular`.`cadastro` (
 `ID` INT NOT NULL AUTO_INCREMENT 
 , `nome` VARCHAR(50) NOT NULL 
