@@ -1,6 +1,5 @@
 ﻿CREATE TABLE `goals` (
 
- `ID_goals` int(11) NOT NULl AUTO_INCREMENT
 ,
 `ID_custumer` int(11) NOT NULL
 ,
