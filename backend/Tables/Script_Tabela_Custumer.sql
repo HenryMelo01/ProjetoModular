@@ -7,8 +7,7 @@ CREATE TABLE `custumer` (
 `idade` int(11) NOT NULL
 ,
 `sexo` bit(1) NOT NULL
-,
-`cidade` varchar(70) NOT NULL
+
 ,
 `bairro` varchar(50) NOT NULL
 
