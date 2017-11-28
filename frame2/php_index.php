@@ -39,6 +39,15 @@
 					inputGoals.value += objCrescer.value+",";
 				}
 			}
+			function verificaVazio(){
+				if (inputName.value=="" || inputName.value == null || inputName.value ==" " || inputGoals.value=="" || inputGoals.value == null || inputGoals.value ==" "){
+					alert("preencha os campos corretamente!");
+					return false;
+				}else{
+					return true;
+				}
+			}
+			
 		 </script>
     </head>
     <body data-spy="scroll" data-target="#navmenu">
@@ -143,7 +152,7 @@
 							<div class="serceoption wow fadeIn" data-wow-duration="1.5s">
 							<center>
 							<!--inicio do form-->
-								<form id="cadCustumer" method="POST" action="PHP/php_InsereRegistro.php">
+								<form id="cadCustumer" method="POST" action="PHP/php_InsereRegistro.php" onSubmit="return verificaVazio()">
 									<input type ="hidden" value="" id="inputGoals" name="inputGoals">
 									<input type="text" placeholder="Digite seu nome" id="inputName" name="inputName"> <br>	
 									<select id="inputIdade" name="inputIdade">
