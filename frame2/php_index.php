@@ -29,6 +29,17 @@
         <link rel="stylesheet" href="assets/css/responsive.css" />
 
         <script src="assets/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+		 <script>
+			function addOnList() {
+				inputGoals.value="";
+				if(objEmagrecer.checked ==true){
+					inputGoals.value += objEmagrecer.value+",";
+				}
+				if(objCrescer.checked ==true){
+					inputGoals.value += objCrescer.value+",";
+				}
+			}
+		 </script>
     </head>
     <body data-spy="scroll" data-target="#navmenu">
         <!--[if lt IE 8]>
@@ -132,10 +143,10 @@
 							<div class="serceoption wow fadeIn" data-wow-duration="1.5s">
 							<center>
 							<!--inicio do form-->
-								<form id="cadCustumer" name="cadCustumer" method="POST" action="PHP/php_InsereRegistro.php">
-									<input type="hidden" value="" id="goalsList" name="goalsList"> </input>
-									<input type="text" placeholder="Digite seu nome" id="inputName" name="inputName" width="250px" margin-left="40px"> </input>
-									<select id="inputIdade" name ="inputIdade">
+								<form id="cadCustumer" method="POST" action="PHP/php_InsereRegistro.php">
+									<input type ="hidden" value="" id="inputGoals" name="inputGoals">
+									<input type="text" placeholder="Digite seu nome" id="inputName" name="inputName"> <br>	
+									<select id="inputIdade" name="inputIdade">
 										<?php
 											for ($n = 14; $n <= 100; $n++) {
 												echo '<option value="'.$n.'">'.$n.'</option>';
@@ -157,9 +168,9 @@
 										<option value="masculino">Masculino</option>
 										<option value="feminino">Faminino</option>
 									</select> <br>
-									<input type="checkbox" value="Perda de Peso" id="objEmagrecer" name="objEmagrecer"> Perda de Peso </input> <br>
-									<input type="checkbox" value="Ganho de Massa" id="objCrescer" name="objCrescer"> Ganho de Massa </input> <br>
-									<input type="submit" id="go"> </input>
+									<input type="checkbox" value="Perda de Peso" id="objEmagrecer"> Perda de Peso </input> <br>
+									<input type="checkbox" value="Ganho de Massa" id="objCrescer"> Ganho de Massa </input> <br>
+									<input type="submit" id="go" onClick="addOnList()"> </input>
 								</form>
 								<!--fim do form-->
 								<center>
