@@ -128,6 +128,7 @@
 		    <div class="row text-center">	
                         <div class="single_register">
                             <a href="">Inscreva-se</a>
+				<div "row text-center">
                         </div>
                     </div>
                 </div>
@@ -210,7 +211,7 @@
         </section>
 
 
-   #########                     <div class="abouts_area">
+                      <div class="abouts_area">
                             <div class="row">
                                 <div class="col-sm-5">
                                     <div class="single_about wow fadeInLeft" data-wow-duration="1.5s">
@@ -218,55 +219,22 @@
                                       <p>Somos uma academia inteligente, criada com o propósito de democratizar o acesso à prática de atividade física de alto padrão, 100% tecnologica onde o tudo o que voce precisa esta dentro do seu smartphone</p>
                                     </div>
                                 </div>
-                                <div class="col-sm-7">
                                     <div class="single_about_right wow fadeInRight" data-wow-duration="1.5s">
                                         <div class="row">
-                                            <div class="col-sm-4">
                                                 <div class="single_team text-center">
-                                                    <div class="team_img">
-                                                        <img src="assets/images/team1.jpg" alt="" />
                                                     </div>
-                                                    <div class="team_deatels">
-                                                        <h4>Jonny Doe</h4>
-                                                        <p>Designer</p>
-                                                        <div class="team_socail">
-                                                            <a href=""><i class="fa fa-facebook"></i></a>
-                                                            <a href=""><i class="fa fa-twitter"></i></a>
-                                                            <a href=""><i class="fa fa-link"></i></a>
                                                         </div>
                                                     </div>
 
                                                 </div>
                                             </div>
-                                            <div class="col-sm-4">
-                                                <div class="single_team text-center">
-                                                    <div class="team_img">
-                                                        <img src="assets/images/team3.jpg" alt="" />
                                                     </div>
-                                                    <div class="team_deatels">
-                                                        <h4>Jonny Doe</h4>
-                                                        <p>Designer</p>
-                                                        <div class="team_socail">
-                                                            <a href=""><i class="fa fa-facebook"></i></a>
-                                                            <a href=""><i class="fa fa-twitter"></i></a>
-                                                            <a href=""><i class="fa fa-link"></i></a>
                                                         </div>
                                                     </div>
 
                                                 </div>
                                             </div>
-                                            <div class="col-sm-4">
-                                                <div class="single_team text-center">
-                                                    <div class="team_img">
-                                                        <img src="assets/images/team4.jpg" alt="" />
                                                     </div>
-                                                    <div class="team_deatels">
-                                                        <h4>Jonny Doe</h4>
-                                                        <p>Designer</p>
-                                                        <div class="team_socail">
-                                                            <a href=""><i class="fa fa-facebook"></i></a>
-                                                            <a href=""><i class="fa fa-twitter"></i></a>
-                                                            <a href=""><i class="fa fa-link"></i></a>
                                                         </div>
                                                     </div>
 
@@ -299,7 +267,7 @@
                                 </div>
                                 <div class="single_comments text-center">
                                     <p>“
-			As aulas na Gy Tech são muito dinâmicas e eles desenvolvem um trabalho sério. 
+			As aulas na Gym Tech são muito dinâmicas e eles desenvolvem um trabalho sério. 
 			Desde a avaliação física, o aluno recebe informações importantes e é bem orientado para fazer os exercícios corretamente, 
 			de maneira personalizada e o melhor os treinos ficam todos disponíveis no app.”  </p>
                                     <a href="">Heitor Silva</a>
@@ -308,7 +276,7 @@
                                     <p>“O motivo que me leva a fazer musculação é o fato de fazer muito bem para a minha saúde. 
 			Procurei a Gym Tech porque o atendimento individual é necessário para as minhas necessidades. 
 			Para mim fazer exercícios é muito importante e aumenta minha disposição para as atividades do dia a dia.”  </p>
-                                    <a href="">John Doe</a>
+                                    <a href="">Marcos Bueno</a>
                                 </div>
                             </div>
                         </div>
@@ -327,8 +295,8 @@
                                     <a href=""><i class="fa fa-flash"></i></a>
                                 </div>
                                 <div class="single_service_deatels">
-                                    <h4>Fast Servers</h4>
-                                    <p>Nulla dapibus neque augue, quis tincidunt tortor aliquam vitae.</p>
+                                    <h4>Estamos sempre com você</h4>
+                                    <p>Nossos perdoais estão sempre prontos para te atender.</p>
                                 </div>
                             </div>
                         </div>
@@ -338,8 +306,8 @@
                                     <a href=""><i class="fa fa-skype"></i></a>
                                 </div>
                                 <div class="single_service_deatels">
-                                    <h4>Cloud Servers</h4>
-                                    <p>Nulla dapibus neque augue, quis tincidunt tortor aliquam vitae.</p>
+                                    <h4>Fale com uma nutricionista</h4>
+                                    <p>Faça sua consulta com nutricionistas de plantão.</p>
                                 </div>
                             </div>
                         </div>
@@ -349,8 +317,8 @@
                                     <a href=""><i class="fa fa-arrows"></i></a>
                                 </div>
                                 <div class="single_service_deatels">
-                                    <h4>Domain Transfer</h4>
-                                    <p>Nulla dapibus neque augue, quis tincidunt tortor aliquam vitae.</p>
+                                    <h4Fácil acesso></h4>
+                                    <p>Em breve estaremos com mais unidades.</p>
                                 </div>
                             </div>
                         </div>
@@ -360,8 +328,8 @@
                                     <a href=""><i class="fa fa-comments"></i></a>
                                 </div>
                                 <div class="single_service_deatels">
-                                    <h4>Live Support</h4>
-                                    <p>Nulla dapibus neque augue, quis tincidunt tortor aliquam vitae.</p>
+                                    <h4>Suporte personalizado</h4>
+                                    <p>Teve algum problema com o app? Converse com nossos analistas.</p>
                                 </div>
                             </div>
                         </div>
@@ -378,52 +346,22 @@
                     <div class="main_footer wow fadeInDown" data-wow-duration="2s">
                         <div class="col-sm-3 col-xs-12">
                             <div class="footer_logo">
-                                <a href=""><img src="assets/images/logo.png" alt="" /></a>
                             </div>
                         </div>
-                        <div class="col-sm-9 col-xs-12">
-                            <div class="footer_menu">
-                                <ul class="list-inline">
-                                    <li><a href="">HOME</a></li>
-                                    <li><a href="">ABOUT US</a></li>
-                                    <li><a href="">BLOG</a></li>
-                                    <li><a href="">POLICY</a></li>
-                                    <li><a href="">CONTACT</a></li>
                                 </ul>
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <div class="row">
-                    <div class="footer_bottom_area">
-                        <div class="col-sm-9 col-xs-12">
-                            <div class="fo_bottom_right">
-                                <div class="row">
-                                    <div class="col-sm-6 col-xs-12">
-                                        <div class="single_right_footer wow fadeIn" data-wow-duration="1s">
-                                            <p>Lorem ipsum dolor sit amet, consecteteeseurı adipiscing elit. Donec mollis commodoeesene que, non commodo risus volutpat vel.</p>
-                                            <a href="">Design by : <strong>XpeedStudio</strong></a>
 											
                                         </div>
                                     </div>
-                                    <div class="col-sm-3 col-xs-6">
-                                        <div class="single_right_footer wow fadeIn" data-wow-duration="1.5s">
-                                            <ul>
-                                                <li><a href=""><i class="lnr lnr-chevron-right"></i> Support</a></li>
-                                                <li><a href=""><i class="lnr lnr-chevron-right"></i> Account</a></li>
-                                                <li><a href=""><i class="lnr lnr-chevron-right"></i> Product Catalog</a></li>
-                                                <li><a href=""><i class="lnr lnr-chevron-right"></i> Shortcodes</a></li>
-                                            </ul>
                                         </div>
                                     </div>
                                     <div class="col-sm-3 col-xs-6">
                                         <div class="single_right_footer wow fadeIn" data-wow-duration="2s">
                                             <ul>
-                                                <li><a href=""><i class="lnr lnr-chevron-right"></i> Support</a></li>
-                                                <li><a href=""><i class="lnr lnr-chevron-right"></i> Account</a></li>
-                                                <li><a href=""><i class="lnr lnr-chevron-right"></i> Product Catalog</a></li>
-                                                <li><a href=""><i class="lnr lnr-chevron-right"></i> Shortcodes</a></li>
                                             </ul>
                                         </div>
                                     </div>
