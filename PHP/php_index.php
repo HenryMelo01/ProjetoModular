@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
 	<head>
 		<title>Gym</title>
@@ -12,11 +13,20 @@
 					inputGoals.value += objCrescer.value+",";
 				}
 			}
-		 </script
+			function verificaVazio(){
+				if (inputName.value=="" || inputName.value == null || inputName.value ==" " || inputGoals.value=="" || inputGoals.value == null || inputGoals.value ==" "){
+					alert("preencha os campos corretamente!");
+					return false;
+				}else{
+					return true;
+				}
+			}
+			
+		 </script>
 	</head>
 	<body>
-		<form id="cadCustumer" method="POST" action="php_InsereRegistro.php">
-			<input type ="hidden" value="" id="inputGoals" name="inputGoals">
+		<form id="cadCustumer" name="cadCustumer" method="POST" action="php_InsereRegistro.php" onSubmit="return verificaVazio()">
+			<input type ="hidden" value="" id="inputGoals" name="inputGoals" required>
 			<input type="text" placeholder="Digite seu nome" id="inputName" name="inputName"> <br>	
 			<select id="inputIdade" name="inputIdade">
 				<?php
