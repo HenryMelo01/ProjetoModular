@@ -14,7 +14,10 @@
 				}
 			}
 			function verificaVazio(){
-				if (inputName.value=="" || inputName.value == null || inputName.value ==" " || inputGoals.value=="" || inputGoals.value == null || inputGoals.value ==" "){
+				 
+				if (inputName.value=="" || inputName.value == null || inputName.value ==" " 
+				|| inputGoals.value=="" || inputGoals.value == null || inputGoals.value ==" " 
+				|| inputBairro.value =="0" || inputIdade.value == "0" || inputSexo.value == "0"){
 					alert("preencha os campos corretamente!");
 					return false;
 				}else{
@@ -29,6 +32,7 @@
 			<input type ="hidden" value="" id="inputGoals" name="inputGoals" required>
 			<input type="text" placeholder="Digite seu nome" id="inputName" name="inputName"> <br>	
 			<select id="inputIdade" name="inputIdade">
+			<option value="0">--Selecione sua idade--</option>
 				<?php
 					for ($n = 14; $n <= 100; $n++) {
 						echo '<option value="'.$n.'">'.$n.'</option>';
@@ -36,6 +40,7 @@
 				?>
 			</select> <br>
 			<select id="inputBairro" name="inputBairro">
+			<option value="0">--Selecione Seu Bairro--</option>
 				<?php
 					include("php_conexaoBanco.php");
 					$conn = abrirConexao();
@@ -47,6 +52,7 @@
 				?>
 			</select> <br>
 			<select id="inputSexo" name="inputSexo">
+				<option value="0">--Selecione seu Sexo--</option>
 				<option value="masculino">Masculino</option>
 				<option value="feminino">Faminino</option>
 			</select> <br>

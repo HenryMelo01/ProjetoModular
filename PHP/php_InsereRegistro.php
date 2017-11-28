@@ -13,9 +13,6 @@
 	}else{
 		$sexo = 0;
 	}
-	foreach ($listGoals as $stri){
-		echo "<script>alert('".$stri."');</script>";
-	}
 	try{
 		$query= "INSERT INTO custumer(nome, idade, sexo, ID_neighborhood) VALUES ('".$nome."',".$idade.",".$sexo.",".$bairro.")";
 		@mysqli_query($conn, $query);
