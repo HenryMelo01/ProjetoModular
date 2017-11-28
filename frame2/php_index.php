@@ -188,19 +188,6 @@
 							<div class="sercelist wow fadeIn" data-wow-duration="2s">
 								<div class="single_dotcom_serce text-center">
 									
-									<ul class="list-inline">
-										<li><p>.com</p></li>
-										<li><p>1 yer</p></li>
-										<li><p>$9.00 USD</p></li>
-										<li><p>Transfer Price No</p></li>
-									</ul>
-									
-									<ul class="list-inline no-border">
-										<li><p>.net</p></li>
-										<li><p>1 yer</p></li>
-										<li><p>$9.00 USD</p></li>
-										<li><p>Transfer Price No</p></li>
-									</ul>
 									
 								   
 								 </div>    
@@ -222,140 +209,8 @@
             </div>
         </section>
 
-        <section id="pricing" class="pricing">
-            <div class="container">
-                <div class="row">
-                    <div class="main_pricing">
 
-                        <div class="pricing_content">
-                            <div class="col-md-3 col-sm-6">
-                                <div class="single_pricing pricing_color_one wow fadeIn" data-wow-duration=".6s">
-                                    <div class="pricing_head text-center">
-                                       <div class="icon_area p_icon_one">
-                                            <i class="fa fa-star"></i>
-                                        </div>
-                                        <h3>BASIC PACKAGE</h3>
-                                         <div class="separator"></div>
-                                    </div>
-                                    <figure class="single_pricing_figure">
-                                        <ul>
-                                            <li><span class="princing_name">Disk Space (GB)</span> <span class="princing_price princing_price_one">50</span></li>
-                                            <li><span class="princing_name">Subdomains</span> <span class="princing_price princing_price_one">50</span></li>
-                                            <li><span class="princing_name">Transfer (GB)</span> <span class="princing_price princing_price_one">50</span></li>
-                                            <li><span class="princing_name">Data bases</span> <span class="princing_price princing_price_one">1</span></li>
-                                            <li><span class="princing_name">Dashboards</span> <span class="princing_price princing_price_one"></span></li>
-                                            <li><span class="princing_name">Control Panel & FTP</span> <span class="princing_price princing_price_one"></span></li>
-                                            <li><span class="princing_name">Free Support</span> <span class="princing_price princing_price_one"></span></li>
-                                           
-                                        </ul>
-                                        <div class="separator"></div>
-                                    </figure>
-                                    
-                                    <footer class="pricing_footer text-center">
-                                        <h3><span class="dolor">$</span> 20 <span class="month">/Mo </span></h3>
-                                        <div class="smallseparator separetor_one"></div>
-                                        <a href="">SELECT PLAN</a>
-                                    </footer>
-                                    
-                                </div>
-                            </div>
-
-                            <div class="col-md-3 col-sm-6">
-                                <div class="single_pricing pricing_color_two wow fadeIn" data-wow-duration="1.2s">
-                                    <div class="pricing_head text-center">
-                                        <div class="icon_area p_icon_two">
-                                            <i class="fa fa-star"></i>
-                                        </div>
-                                        <h3>NORMAL PACKAGE</h3>
-                                         <div class="separator"></div>
-                                    </div>
-                                    <figure class="single_pricing_figure">
-                                        <ul>
-                                            <li><span class="princing_name">Disk Space (GB)</span> <span class="princing_price princing_price_two">50</span></li>
-                                            <li><span class="princing_name">Subdomains</span> <span class="princing_price princing_price_two">50</span></li>
-                                            <li><span class="princing_name">Transfer (GB)</span> <span class="princing_price princing_price_two">50</span></li>
-                                            <li><span class="princing_name">Data bases</span> <span class="princing_price princing_price_two">1</span></li>
-                                            <li><span class="princing_name">Dashboards</span> <span class="princing_price princing_price_two"></span></li>
-                                            <li><span class="princing_name">Control Panel & FTP</span> <span class="princing_price princing_price_two"></span></li>
-                                            <li><span class="princing_name">Free Support</span> <span class="princing_price princing_price_two"></span></li>
-                                        </ul>
-                                        <div class="separator"></div>
-                                    </figure>
-                                    
-                                    <footer class="pricing_footer text-center">
-                                        <h3><span class="dolor">$</span> 20 <span class="month">/Mo </span></h3>
-                                        <div class="smallseparator separetor_two"></div>
-                                        <a href="">SELECT PLAN</a>
-                                    </footer>
-                                    
-                                </div>
-                            </div>
-
-                            <div class="col-md-3 col-sm-6">
-                                <div class="single_pricing pricing_color_three wow fadeIn" data-wow-duration="1.8s">
-                                    <div class="pricing_head text-center">
-                                        <div class="icon_area p_icon_three">
-                                            <i class="fa fa-star"></i>
-                                        </div>
-                                        <h3>BIG PACKAGE</h3>
-                                         <div class="separator"></div>
-                                    </div>
-                                    <figure class="single_pricing_figure">
-                                        <ul>
-                                            <li><span class="princing_name">Disk Space (GB)</span> <span class="princing_price princing_price_three">50</span></li>
-                                            <li><span class="princing_name">Subdomains</span> <span class="princing_price princing_price_three">50</span></li>
-                                            <li><span class="princing_name">Transfer (GB)</span> <span class="princing_price princing_price_three">50</span></li>
-                                            <li><span class="princing_name">Data bases</span> <span class="princing_price princing_price_three">1</span></li>
-                                            <li><span class="princing_name">Dashboards</span> <span class="princing_price princing_price_three"></span></li>
-                                            <li><span class="princing_name">Control Panel & FTP</span> <span class="princing_price princing_price_three"></span></li>
-                                            <li><span class="princing_name">Free Support</span> <span class="princing_price princing_price_three"></span></li>
-                                        </ul>  
-                                        <div class="separator"></div>
-                                    </figure>
-                                    
-                                    <footer class="pricing_footer text-center">
-                                        <h3><span class="dolor">$</span> 20 <span class="month">/Mo </span></h3>
-                                        <div class="smallseparator separetor_three"></div>
-                                        <a href="">SELECT PLAN</a>
-                                    </footer>
-                                    
-                                </div>
-                            </div>
-
-                            <div class="col-md-3 col-sm-6">
-                                <div class="single_pricing pricing_color_four wow fadeIn" data-wow-duration="2.3s">
-                                    <div class="pricing_head text-center">
-                                        <div class="icon_area p_icon_four">
-                                            <i class="fa fa-star"></i>
-                                        </div>
-                                        <h3>BIGGEST PACKAGE</h3>
-                                        <div class="separator"></div>
-                                    </div>
-                                   
-                                    <figure class="single_pricing_figure">
-                                        <ul>
-                                           <li><span class="princing_name">Disk Space (GB)</span> <span class="princing_price princing_price_four">50</span></li>
-                                            <li><span class="princing_name">Subdomains</span> <span class="princing_price princing_price_four">50</span></li>
-                                            <li><span class="princing_name">Transfer (GB)</span> <span class="princing_price princing_price_four">50</span></li>
-                                            <li><span class="princing_name">Data bases</span> <span class="princing_price princing_price_four">1</span></li>
-                                            <li><span class="princing_name">Dashboards</span> <span class="princing_price princing_price_four"></span></li>
-                                            <li><span class="princing_name">Control Panel & FTP</span> <span class="princing_price princing_price_four"></span></li>
-                                            <li><span class="princing_name">Free Support</span> <span class="princing_price princing_price_four"></span></li>
-                                        </ul>
-                                        <div class="separator"></div>
-                                    </figure>
-                                    
-                                    <footer class="pricing_footer text-center">
-                                        <h3><span class="dolor">$</span> 20 <span class="month">/Mo </span></h3>
-                                        <div class="smallseparator separetor_four"></div>
-                                        <a href="">SELECT PLAN</a>
-                                    </footer>
-                                </div>
-                            </div>
-
-                        </div><!-- End of pcining section -->
-
-                        <div class="abouts_area">
+   #########                     <div class="abouts_area">
                             <div class="row">
                                 <div class="col-sm-5">
                                     <div class="single_about wow fadeInLeft" data-wow-duration="1.5s">
@@ -438,18 +293,21 @@
                         <div class="main_comments wow fadeInUp" data-wow-duration="1.5s">
                             <div class="main_comments_content">
                                 <div class="single_comments text-center">
-                                    <p>“Suspendisse tempor turpis odio, sit amet cursus leo consequat non. Maecenas lacinia faucibus enimqui
-                                        interdum dolor pulvinar vitae.”  </p>
-                                    <a href="">John Doe</a>
+                                    <p>“Comecei a fazer academia a mais ou menos uns dois anos, de início foi mais por uma questão de estética
+			 e foi na Gym Tech onde me senti mais a vontade para começar a fazer exercícios.”  </p>
+                                    <a href="">Antonella de Souza</a>
                                 </div>
                                 <div class="single_comments text-center">
-                                    <p>“Suspendisse tempor turpis odio, sit amet cursus leo consequat non. Maecenas lacinia faucibus enimqui
-                                        interdum dolor pulvinar vitae.”  </p>
-                                    <a href="">John Doe</a>
+                                    <p>“
+			As aulas na Gy Tech são muito dinâmicas e eles desenvolvem um trabalho sério. 
+			Desde a avaliação física, o aluno recebe informações importantes e é bem orientado para fazer os exercícios corretamente, 
+			de maneira personalizada e o melhor os treinos ficam todos disponíveis no app.”  </p>
+                                    <a href="">Heitor Silva</a>
                                 </div>
                                 <div class="single_comments text-center">
-                                    <p>“Suspendisse tempor turpis odio, sit amet cursus leo consequat non. Maecenas lacinia faucibus enimqui
-                                        interdum dolor pulvinar vitae.”  </p>
+                                    <p>“O motivo que me leva a fazer musculação é o fato de fazer muito bem para a minha saúde. 
+			Procurei a Gym Tech porque o atendimento individual é necessário para as minhas necessidades. 
+			Para mim fazer exercícios é muito importante e aumenta minha disposição para as atividades do dia a dia.”  </p>
                                     <a href="">John Doe</a>
                                 </div>
                             </div>
@@ -574,9 +432,9 @@
                         </div> 
                         <div class="col-sm-3 col-xs-12">
                             <div class="fo_bottom_socail wow fadeIn" data-wow-duration="2.3s">
-                                <a href="#"><i class="fa fa-phone"> 0000-0000-0000</i></a>
-                                <a href=""><i class="fa fa-envelope"></i> informationteam@ghosthost.com</a>
-                                <p>Lorem Ipsum Street, Lorem Avenue,Lorem Ipsum </p>
+                                <a href="#"><i class="fa fa-phone"> (11) 3204-2572</i></a>
+                                <a href=""><i class="fa fa-envelope"></i> contato@gymtech.com</a>
+                                <p>Avenida dos Bandeirantes, 830 - Vila Olimpia - SP</p>
                             </div>
                         </div> 
                     </div>
@@ -593,7 +451,8 @@
 			<div class="container-fluid">
 			<div class="row">
 				<div class="coppyright">
-					<p class="wow fadeInUp" data-wow-duration="2s">Made with <i class="fa fa-heart"></i> by <strong><a href="http://bootstrapthemes.co">Bootstrap Themes</a></strong> 2016. All Rights Reserved</p>
+		<p class="wow fadeInUp" data-wow-duration="2s">Gym Tech® <i></i> by <strong>
+			 All Rights Reserved</p>
 				</div>
 			</div>
 			</div>
